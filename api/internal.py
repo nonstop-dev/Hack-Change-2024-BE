@@ -3,7 +3,7 @@ from flask import Blueprint, jsonify, request
 from data_generator import generate_employees
 import json
 
-internal = Blueprint("stations_api", __name__)
+internal = Blueprint("internal", __name__)
 
 @internal.route('/generateemployees', methods=['GET'])
 def get_employees():
