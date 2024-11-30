@@ -3,7 +3,7 @@ from datetime import datetime
 
 from nickname_generator import generate
 
-from models import Employee
+from models import Employee_
 
 # Списки возможных значений для каждого поля
 women_names = ['София', 'Анна', 'Мария', 'Ева', 'Виктория', 'Светлана', 'Ольга', 'Татьяна', 'Наталия', 'Елена']
@@ -46,7 +46,7 @@ def generate_employee():
         "vacationEndDate": f"{datetime.now().year}-{random.randint(1, 12):02d}-{random.randint(1, 28):02d}"
     }
 
-    employee = Employee(name, "", nickname, role, team, department, project, city, timezone, skills, workHours, availability)
+    employee = Employee_(name, "", nickname, role, team, department, project, city, timezone, skills, workHours, availability)
     return employee
 
 def generate_employees(count):

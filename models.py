@@ -1,17 +1,7 @@
-# class Team:
-#     def __init__(self, id, name, employees, manager):
-#         self.id = id
-#         self.name = name
-#         self.employees = employees
-#         self.manager = manager
-
-# class Departments:
-#     def __init___(self, id, name):
-#         self.id = id
-#         self.name = name
 import json
 
-class Employee:
+
+class Employee_:
     def __init__(
             self,
             name,
