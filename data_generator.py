@@ -1,7 +1,8 @@
 import random
 from datetime import datetime
+
 from nickname_generator import generate
-from transliterate import translit
+
 from models import Employee
 
 # Списки возможных значений для каждого поля

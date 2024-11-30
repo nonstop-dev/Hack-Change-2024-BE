@@ -1,7 +1,9 @@
 
-from flask import Blueprint, jsonify, request
-from data_generator import generate_employees
 import json
+
+from flask import Blueprint
+
+from data_generator import generate_employees
 
 internal = Blueprint("internal", __name__)
 

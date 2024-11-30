@@ -1,0 +1,2085 @@
+[
+	{
+		"name": "Наталия Иванова",
+		"photoUrl": "",
+		"nickname": "Nxxa157",
+		"role": "Разработчик",
+		"team": "Инноваторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 68",
+		"city": "Самара",
+		"timezone": "+10:00",
+		"skills": [
+			"Ruby",
+			"программирование",
+			"Python"
+		],
+		"workHours": "17:00-10:00",
+		"availability": {
+			"vacationEndDate": "2024-11-14"
+		}
+	},
+	{
+		"name": "Мария Николаева",
+		"photoUrl": "",
+		"nickname": "Mxxa618",
+		"role": "Менеджер",
+		"team": "Нытики",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 9",
+		"city": "Нижний Новгород",
+		"timezone": "+07:00",
+		"skills": [
+			"Python",
+			"программирование"
+		],
+		"workHours": "15:00-16:00",
+		"availability": {
+			"vacationEndDate": "2024-03-14"
+		}
+	},
+	{
+		"name": "Виктория Волкова",
+		"photoUrl": "",
+		"nickname": "Vxxa891",
+		"role": "Менеджер",
+		"team": "Нытики",
+		"department": "Отдел Координации",
+		"project": "Проект 68",
+		"city": "Казань",
+		"timezone": "+06:00",
+		"skills": [
+			"программирование"
+		],
+		"workHours": "12:00-10:00",
+		"availability": {
+			"vacationEndDate": "2024-07-09"
+		}
+	},
+	{
+		"name": "Павел Сидоров",
+		"photoUrl": "",
+		"nickname": "Pxxv240",
+		"role": "Разработчик",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 36",
+		"city": "Санкт-Петербург",
+		"timezone": "+10:00",
+		"skills": [
+			"алгоритмизация",
+			"языки программирования",
+			"Python",
+			"алгебраические структуры данных",
+			"алгоритмы",
+			"JavaScript"
+		],
+		"workHours": "09:00-13:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "09:00"
+		}
+	},
+	{
+		"name": "Ева Соколова",
+		"photoUrl": "",
+		"nickname": "Exxa994",
+		"role": "Разработчик",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 14",
+		"city": "Самара",
+		"timezone": "+08:00",
+		"skills": [
+			"теория графов",
+			"алгебраические структуры данных",
+			"комбинаторика"
+		],
+		"workHours": "15:00-12:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Артем Петров",
+		"photoUrl": "",
+		"nickname": "Axxv988",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 45",
+		"city": "Новосибирск",
+		"timezone": "+08:00",
+		"skills": [
+			"структурные данные",
+			"C++",
+			"Ruby",
+			"базы данных"
+		],
+		"workHours": "09:00-17:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Николай Сидоров",
+		"photoUrl": "",
+		"nickname": "Nxxv335",
+		"role": "Дизайнер",
+		"team": "Инноваторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 26",
+		"city": "Москва",
+		"timezone": "+09:00",
+		"skills": [
+			"теория графов"
+		],
+		"workHours": "13:00-17:00",
+		"availability": {
+			"vacationEndDate": "2024-09-06"
+		}
+	},
+	{
+		"name": "Мария Иванова",
+		"photoUrl": "",
+		"nickname": "Mxxa265",
+		"role": "Разработчик",
+		"team": "Веб-мастера",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 50",
+		"city": "Екатеринбург",
+		"timezone": "+12:00",
+		"skills": [
+			"JavaScript",
+			"базы данных",
+			"структурные данные",
+			"языки программирования"
+		],
+		"workHours": "11:00-10:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Татьяна Сидорова",
+		"photoUrl": "",
+		"nickname": "Txxa610",
+		"role": "Тестировщик",
+		"team": "Бэкендеры",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 69",
+		"city": "Нижний Новгород",
+		"timezone": "+06:00",
+		"skills": [
+			"Python",
+			"комбинаторика",
+			"криптография",
+			"программирование",
+			"теория графов",
+			"языки программирования"
+		],
+		"workHours": "15:00-16:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "09:00"
+		}
+	},
+	{
+		"name": "Михаил Николаев",
+		"photoUrl": "",
+		"nickname": "Mxxv946",
+		"role": "Тестировщик",
+		"team": "Нытики",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 39",
+		"city": "Омск",
+		"timezone": "+08:00",
+		"skills": [
+			"структурные данные",
+			"C++",
+			"Python",
+			"программирование",
+			"языки программирования",
+			"алгоритмы"
+		],
+		"workHours": "11:00-11:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Наталия Сидорова",
+		"photoUrl": "",
+		"nickname": "Nxxa103",
+		"role": "Аналитик",
+		"team": "Нытики",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 95",
+		"city": "Новосибирск",
+		"timezone": "+12:00",
+		"skills": [
+			"языки программирования",
+			"структурные данные",
+			"теория графов",
+			"Java",
+			"алгоритмизация"
+		],
+		"workHours": "09:00-13:00",
+		"availability": {
+			"vacationEndDate": "2024-05-02"
+		}
+	},
+	{
+		"name": "Иван Михайлов",
+		"photoUrl": "",
+		"nickname": "Ixxv905",
+		"role": "Менеджер",
+		"team": "Веб-мастера",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 29",
+		"city": "Ростов-на-Дону",
+		"timezone": "+09:00",
+		"skills": [
+			"C++",
+			"алгоритмизация"
+		],
+		"workHours": "09:00-13:00",
+		"availability": {
+			"vacationEndDate": "2024-11-02"
+		}
+	},
+	{
+		"name": "Матвей Кузнецов",
+		"photoUrl": "",
+		"nickname": "Mxxv423",
+		"role": "Менеджер",
+		"team": "Инноваторы",
+		"department": "Отдел Инноваций",
+		"project": "Проект 3",
+		"city": "Ростов-на-Дону",
+		"timezone": "+11:00",
+		"skills": [
+			"криптография",
+			"программирование",
+			"теория графов"
+		],
+		"workHours": "16:00-13:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Татьяна Андреева",
+		"photoUrl": "",
+		"nickname": "Txxa798",
+		"role": "Тестировщик",
+		"team": "Нытики",
+		"department": "Отдел Счастья",
+		"project": "Проект 57",
+		"city": "Санкт-Петербург",
+		"timezone": "+12:00",
+		"skills": [
+			"алгоритмизация",
+			"языки программирования",
+			"комбинаторика"
+		],
+		"workHours": "12:00-14:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Наталия Михайлова",
+		"photoUrl": "",
+		"nickname": "Nxxa448",
+		"role": "Тестировщик",
+		"team": "Бэкендеры",
+		"department": "Отдел Счастья",
+		"project": "Проект 80",
+		"city": "Самара",
+		"timezone": "+08:00",
+		"skills": [
+			"языки программирования",
+			"алгоритмизация",
+			"теория графов",
+			"Ruby"
+		],
+		"workHours": "18:00-09:00",
+		"availability": {
+			"vacationEndDate": "2024-07-25"
+		}
+	},
+	{
+		"name": "Иван Петров",
+		"photoUrl": "",
+		"nickname": "Ixxv052",
+		"role": "Менеджер",
+		"team": "Веб-мастера",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 100",
+		"city": "Казань",
+		"timezone": "+07:00",
+		"skills": [
+			"Python"
+		],
+		"workHours": "14:00-12:00",
+		"availability": {
+			"vacationEndDate": "2024-12-26"
+		}
+	},
+	{
+		"name": "Мария Михайлова",
+		"photoUrl": "",
+		"nickname": "Mxxa225",
+		"role": "Менеджер",
+		"team": "Нытики",
+		"department": "Отдел Инноваций",
+		"project": "Проект 19",
+		"city": "Казань",
+		"timezone": "+09:00",
+		"skills": [
+			"C++",
+			"базы данных"
+		],
+		"workHours": "18:00-16:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Матвей Петров",
+		"photoUrl": "",
+		"nickname": "Mxxv196",
+		"role": "Разработчик",
+		"team": "Инноваторы",
+		"department": "Отдел Координации",
+		"project": "Проект 47",
+		"city": "Екатеринбург",
+		"timezone": "+08:00",
+		"skills": [
+			"C++",
+			"алгоритмы",
+			"комбинаторика"
+		],
+		"workHours": "15:00-11:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Егор Иванов",
+		"photoUrl": "",
+		"nickname": "Exxv060",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Координации",
+		"project": "Проект 53",
+		"city": "Казань",
+		"timezone": "+11:00",
+		"skills": [
+			"JavaScript",
+			"Ruby",
+			"алгебраические структуры данных",
+			"криптография",
+			"языки программирования"
+		],
+		"workHours": "09:00-11:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Егор Волков",
+		"photoUrl": "",
+		"nickname": "Exxv885",
+		"role": "Аналитик",
+		"team": "Нытики",
+		"department": "Отдел Координации",
+		"project": "Проект 31",
+		"city": "Челябинск",
+		"timezone": "+12:00",
+		"skills": [
+			"Java",
+			"JavaScript",
+			"алгебраические структуры данных",
+			"C++"
+		],
+		"workHours": "10:00-15:00",
+		"availability": {
+			"vacationEndDate": "2024-04-06"
+		}
+	},
+	{
+		"name": "Елена Николаева",
+		"photoUrl": "",
+		"nickname": "Exxa088",
+		"role": "Тестировщик",
+		"team": "Нытики",
+		"department": "Отдел Счастья",
+		"project": "Проект 83",
+		"city": "Ростов-на-Дону",
+		"timezone": "+08:00",
+		"skills": [
+			"алгебраические структуры данных",
+			"теория графов",
+			"алгоритмизация",
+			"Python",
+			"Java",
+			"программирование"
+		],
+		"workHours": "12:00-10:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Михаил Михайлов",
+		"photoUrl": "",
+		"nickname": "Mxxv218",
+		"role": "Аналитик",
+		"team": "Веб-мастера",
+		"department": "Отдел Координации",
+		"project": "Проект 39",
+		"city": "Ростов-на-Дону",
+		"timezone": "+09:00",
+		"skills": [
+			"JavaScript",
+			"базы данных"
+		],
+		"workHours": "11:00-13:00",
+		"availability": {
+			"vacationEndDate": "2024-10-15"
+		}
+	},
+	{
+		"name": "Матвей Андреев",
+		"photoUrl": "",
+		"nickname": "Mxxv324",
+		"role": "Разработчик",
+		"team": "Инноваторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 26",
+		"city": "Ростов-на-Дону",
+		"timezone": "+10:00",
+		"skills": [
+			"C++",
+			"языки программирования",
+			"Ruby",
+			"структурные данные",
+			"теория графов",
+			"Python"
+		],
+		"workHours": "14:00-11:00",
+		"availability": {
+			"vacationEndDate": "2024-12-20"
+		}
+	},
+	{
+		"name": "Михаил Кузнецов",
+		"photoUrl": "",
+		"nickname": "Mxxv186",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Инноваций",
+		"project": "Проект 58",
+		"city": "Ростов-на-Дону",
+		"timezone": "+07:00",
+		"skills": [
+			"комбинаторика",
+			"базы данных",
+			"структурные данные",
+			"C++",
+			"Java",
+			"криптография"
+		],
+		"workHours": "17:00-18:00",
+		"availability": {
+			"vacationEndDate": "2024-10-19"
+		}
+	},
+	{
+		"name": "Ольга Соколова",
+		"photoUrl": "",
+		"nickname": "Oxxa107",
+		"role": "Разработчик",
+		"team": "Веб-мастера",
+		"department": "Отдел Счастья",
+		"project": "Проект 10",
+		"city": "Москва",
+		"timezone": "+12:00",
+		"skills": [
+			"программирование"
+		],
+		"workHours": "14:00-09:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "09:00"
+		}
+	},
+	{
+		"name": "Артем Кузнецов",
+		"photoUrl": "",
+		"nickname": "Axxv317",
+		"role": "Тестировщик",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 40",
+		"city": "Москва",
+		"timezone": "+09:00",
+		"skills": [
+			"криптография",
+			"алгебраические структуры данных",
+			"программирование",
+			"JavaScript",
+			"языки программирования"
+		],
+		"workHours": "16:00-11:00",
+		"availability": {
+			"vacationEndDate": "2024-11-03"
+		}
+	},
+	{
+		"name": "Николай Соколов",
+		"photoUrl": "",
+		"nickname": "Nxxv806",
+		"role": "Тестировщик",
+		"team": "Инноваторы",
+		"department": "Отдел Инноваций",
+		"project": "Проект 12",
+		"city": "Нижний Новгород",
+		"timezone": "+11:00",
+		"skills": [
+			"Java",
+			"Python",
+			"программирование"
+		],
+		"workHours": "09:00-13:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Ольга Кравцова",
+		"photoUrl": "",
+		"nickname": "Oxxa433",
+		"role": "Менеджер",
+		"team": "Инноваторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 56",
+		"city": "Казань",
+		"timezone": "+08:00",
+		"skills": [
+			"алгебраические структуры данных",
+			"алгоритмы",
+			"криптография",
+			"базы данных"
+		],
+		"workHours": "14:00-14:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Мария Кравцова",
+		"photoUrl": "",
+		"nickname": "Mxxa742",
+		"role": "Тестировщик",
+		"team": "Координаторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 47",
+		"city": "Нижний Новгород",
+		"timezone": "+12:00",
+		"skills": [
+			"языки программирования"
+		],
+		"workHours": "15:00-13:00",
+		"availability": {
+			"vacationEndDate": "2024-07-18"
+		}
+	},
+	{
+		"name": "Александр Михайлов",
+		"photoUrl": "",
+		"nickname": "Axxv612",
+		"role": "Тестировщик",
+		"team": "Веб-мастера",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 19",
+		"city": "Самара",
+		"timezone": "+09:00",
+		"skills": [
+			"комбинаторика",
+			"программирование",
+			"Java",
+			"структурные данные"
+		],
+		"workHours": "18:00-12:00",
+		"availability": {
+			"vacationEndDate": "2024-05-27"
+		}
+	},
+	{
+		"name": "Светлана Кравцова",
+		"photoUrl": "",
+		"nickname": "Sxxa845",
+		"role": "Аналитик",
+		"team": "Координаторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 35",
+		"city": "Екатеринбург",
+		"timezone": "+09:00",
+		"skills": [
+			"алгоритмизация",
+			"структурные данные",
+			"Python",
+			"языки программирования",
+			"комбинаторика",
+			"JavaScript"
+		],
+		"workHours": "11:00-10:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Максим Михайлов",
+		"photoUrl": "",
+		"nickname": "Mxxv668",
+		"role": "Менеджер",
+		"team": "Нытики",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 65",
+		"city": "Омск",
+		"timezone": "+06:00",
+		"skills": [
+			"криптография",
+			"алгоритмизация",
+			"комбинаторика",
+			"структурные данные"
+		],
+		"workHours": "14:00-12:00",
+		"availability": {
+			"vacationEndDate": "2024-05-05"
+		}
+	},
+	{
+		"name": "Виктория Кузнецова",
+		"photoUrl": "",
+		"nickname": "Vxxa335",
+		"role": "Тестировщик",
+		"team": "Нытики",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 68",
+		"city": "Челябинск",
+		"timezone": "+12:00",
+		"skills": [
+			"алгоритмы",
+			"алгоритмизация",
+			"базы данных",
+			"программирование"
+		],
+		"workHours": "17:00-11:00",
+		"availability": {
+			"vacationEndDate": "2024-10-19"
+		}
+	},
+	{
+		"name": "Иван Петров",
+		"photoUrl": "",
+		"nickname": "Ixxv633",
+		"role": "Менеджер",
+		"team": "Координаторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 19",
+		"city": "Санкт-Петербург",
+		"timezone": "+07:00",
+		"skills": [
+			"структурные данные"
+		],
+		"workHours": "14:00-10:00",
+		"availability": {
+			"vacationEndDate": "2024-07-09"
+		}
+	},
+	{
+		"name": "Егор Андреев",
+		"photoUrl": "",
+		"nickname": "Exxv387",
+		"role": "Менеджер",
+		"team": "Нытики",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 79",
+		"city": "Казань",
+		"timezone": "+06:00",
+		"skills": [
+			"языки программирования",
+			"JavaScript",
+			"алгоритмы",
+			"Python",
+			"алгоритмизация"
+		],
+		"workHours": "15:00-14:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Максим Сидоров",
+		"photoUrl": "",
+		"nickname": "Mxxv587",
+		"role": "Менеджер",
+		"team": "Веб-мастера",
+		"department": "Отдел Инноваций",
+		"project": "Проект 35",
+		"city": "Нижний Новгород",
+		"timezone": "+06:00",
+		"skills": [
+			"программирование",
+			"JavaScript"
+		],
+		"workHours": "18:00-14:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "София Сидорова",
+		"photoUrl": "",
+		"nickname": "Sxxa373",
+		"role": "Разработчик",
+		"team": "Бэкендеры",
+		"department": "Отдел Счастья",
+		"project": "Проект 83",
+		"city": "Казань",
+		"timezone": "+08:00",
+		"skills": [
+			"Java",
+			"языки программирования",
+			"Python",
+			"теория графов",
+			"структурные данные"
+		],
+		"workHours": "12:00-09:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Павел Михайлов",
+		"photoUrl": "",
+		"nickname": "Pxxv793",
+		"role": "Разработчик",
+		"team": "Бэкендеры",
+		"department": "Отдел Координации",
+		"project": "Проект 44",
+		"city": "Новосибирск",
+		"timezone": "+08:00",
+		"skills": [
+			"Python",
+			"комбинаторика"
+		],
+		"workHours": "11:00-16:00",
+		"availability": {
+			"vacationEndDate": "2024-09-16"
+		}
+	},
+	{
+		"name": "Татьяна Соколова",
+		"photoUrl": "",
+		"nickname": "Txxa404",
+		"role": "Тестировщик",
+		"team": "Координаторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 12",
+		"city": "Омск",
+		"timezone": "+12:00",
+		"skills": [
+			"теория графов",
+			"Python",
+			"комбинаторика"
+		],
+		"workHours": "17:00-16:00",
+		"availability": {
+			"vacationEndDate": "2024-02-12"
+		}
+	},
+	{
+		"name": "Павел Сидоров",
+		"photoUrl": "",
+		"nickname": "Pxxv678",
+		"role": "Аналитик",
+		"team": "Координаторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 65",
+		"city": "Казань",
+		"timezone": "+07:00",
+		"skills": [
+			"программирование"
+		],
+		"workHours": "11:00-14:00",
+		"availability": {
+			"vacationEndDate": "2024-09-05"
+		}
+	},
+	{
+		"name": "Артем Иванов",
+		"photoUrl": "",
+		"nickname": "Axxv375",
+		"role": "Аналитик",
+		"team": "Координаторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 54",
+		"city": "Челябинск",
+		"timezone": "+09:00",
+		"skills": [
+			"алгоритмизация",
+			"Ruby"
+		],
+		"workHours": "10:00-16:00",
+		"availability": {
+			"vacationEndDate": "2024-10-11"
+		}
+	},
+	{
+		"name": "Ева Андреева",
+		"photoUrl": "",
+		"nickname": "Exxa202",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 100",
+		"city": "Екатеринбург",
+		"timezone": "+12:00",
+		"skills": [
+			"алгоритмы",
+			"теория графов",
+			"алгебраические структуры данных",
+			"комбинаторика"
+		],
+		"workHours": "18:00-11:00",
+		"availability": {
+			"vacationEndDate": "2024-05-11"
+		}
+	},
+	{
+		"name": "Николай Кравцов",
+		"photoUrl": "",
+		"nickname": "Nxxv210",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 84",
+		"city": "Екатеринбург",
+		"timezone": "+11:00",
+		"skills": [
+			"языки программирования",
+			"C++",
+			"программирование"
+		],
+		"workHours": "11:00-18:00",
+		"availability": {
+			"vacationEndDate": "2024-10-28"
+		}
+	},
+	{
+		"name": "Матвей Кравцов",
+		"photoUrl": "",
+		"nickname": "Mxxv072",
+		"role": "Разработчик",
+		"team": "Веб-мастера",
+		"department": "Отдел Счастья",
+		"project": "Проект 80",
+		"city": "Самара",
+		"timezone": "+09:00",
+		"skills": [
+			"алгоритмизация",
+			"Python",
+			"программирование"
+		],
+		"workHours": "13:00-10:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Павел Петров",
+		"photoUrl": "",
+		"nickname": "Pxxv912",
+		"role": "Дизайнер",
+		"team": "Веб-мастера",
+		"department": "Отдел Координации",
+		"project": "Проект 34",
+		"city": "Казань",
+		"timezone": "+06:00",
+		"skills": [
+			"алгоритмизация"
+		],
+		"workHours": "18:00-17:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Ольга Петрова",
+		"photoUrl": "",
+		"nickname": "Oxxa007",
+		"role": "Дизайнер",
+		"team": "Инноваторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 86",
+		"city": "Челябинск",
+		"timezone": "+07:00",
+		"skills": [
+			"криптография",
+			"комбинаторика",
+			"алгебраические структуры данных",
+			"языки программирования"
+		],
+		"workHours": "15:00-17:00",
+		"availability": {
+			"vacationEndDate": "2024-05-22"
+		}
+	},
+	{
+		"name": "Михаил Петров",
+		"photoUrl": "",
+		"nickname": "Mxxv065",
+		"role": "Аналитик",
+		"team": "Нытики",
+		"department": "Отдел Счастья",
+		"project": "Проект 73",
+		"city": "Ростов-на-Дону",
+		"timezone": "+11:00",
+		"skills": [
+			"Java",
+			"алгоритмы",
+			"языки программирования",
+			"программирование",
+			"алгоритмизация",
+			"JavaScript"
+		],
+		"workHours": "17:00-10:00",
+		"availability": {
+			"vacationEndDate": "2024-11-15"
+		}
+	},
+	{
+		"name": "Татьяна Кравцова",
+		"photoUrl": "",
+		"nickname": "Txxa521",
+		"role": "Менеджер",
+		"team": "Нытики",
+		"department": "Отдел Координации",
+		"project": "Проект 13",
+		"city": "Ростов-на-Дону",
+		"timezone": "+06:00",
+		"skills": [
+			"криптография",
+			"JavaScript",
+			"алгебраические структуры данных",
+			"C++",
+			"алгоритмы"
+		],
+		"workHours": "18:00-09:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Егор Кузнецов",
+		"photoUrl": "",
+		"nickname": "Exxv019",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 45",
+		"city": "Казань",
+		"timezone": "+06:00",
+		"skills": [
+			"языки программирования",
+			"Python"
+		],
+		"workHours": "14:00-09:00",
+		"availability": {
+			"vacationEndDate": "2024-04-08"
+		}
+	},
+	{
+		"name": "Николай Кузнецов",
+		"photoUrl": "",
+		"nickname": "Nxxv026",
+		"role": "Дизайнер",
+		"team": "Бэкендеры",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 49",
+		"city": "Нижний Новгород",
+		"timezone": "+12:00",
+		"skills": [
+			"Python",
+			"теория графов",
+			"языки программирования",
+			"структурные данные",
+			"базы данных"
+		],
+		"workHours": "11:00-13:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Виктория Михайлова",
+		"photoUrl": "",
+		"nickname": "Vxxa944",
+		"role": "Менеджер",
+		"team": "Бэкендеры",
+		"department": "Отдел Координации",
+		"project": "Проект 45",
+		"city": "Новосибирск",
+		"timezone": "+08:00",
+		"skills": [
+			"языки программирования",
+			"алгоритмы"
+		],
+		"workHours": "12:00-10:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Наталия Николаева",
+		"photoUrl": "",
+		"nickname": "Nxxa061",
+		"role": "Разработчик",
+		"team": "Инноваторы",
+		"department": "Отдел Инноваций",
+		"project": "Проект 61",
+		"city": "Санкт-Петербург",
+		"timezone": "+12:00",
+		"skills": [
+			"структурные данные",
+			"алгебраические структуры данных",
+			"программирование"
+		],
+		"workHours": "14:00-11:00",
+		"availability": {
+			"vacationEndDate": "2024-08-23"
+		}
+	},
+	{
+		"name": "Светлана Кузнецова",
+		"photoUrl": "",
+		"nickname": "Sxxa871",
+		"role": "Разработчик",
+		"team": "Бэкендеры",
+		"department": "Отдел Инноваций",
+		"project": "Проект 77",
+		"city": "Челябинск",
+		"timezone": "+08:00",
+		"skills": [
+			"Java"
+		],
+		"workHours": "10:00-15:00",
+		"availability": {
+			"vacationEndDate": "2024-07-22"
+		}
+	},
+	{
+		"name": "Николай Михайлов",
+		"photoUrl": "",
+		"nickname": "Nxxv390",
+		"role": "Тестировщик",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 29",
+		"city": "Самара",
+		"timezone": "+06:00",
+		"skills": [
+			"алгоритмы",
+			"Python",
+			"программирование",
+			"алгоритмизация",
+			"комбинаторика",
+			"теория графов"
+		],
+		"workHours": "10:00-11:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Михаил Соколов",
+		"photoUrl": "",
+		"nickname": "Mxxv672",
+		"role": "Разработчик",
+		"team": "Веб-мастера",
+		"department": "Отдел Счастья",
+		"project": "Проект 48",
+		"city": "Новосибирск",
+		"timezone": "+08:00",
+		"skills": [
+			"Ruby",
+			"Python"
+		],
+		"workHours": "10:00-14:00",
+		"availability": {
+			"vacationEndDate": "2024-11-03"
+		}
+	},
+	{
+		"name": "Мария Михайлова",
+		"photoUrl": "",
+		"nickname": "Mxxa138",
+		"role": "Менеджер",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 65",
+		"city": "Москва",
+		"timezone": "+12:00",
+		"skills": [
+			"JavaScript",
+			"Java",
+			"программирование",
+			"структурные данные",
+			"алгоритмизация"
+		],
+		"workHours": "09:00-09:00",
+		"availability": {
+			"vacationEndDate": "2024-01-18"
+		}
+	},
+	{
+		"name": "Виктория Сидорова",
+		"photoUrl": "",
+		"nickname": "Vxxa664",
+		"role": "Тестировщик",
+		"team": "Бэкендеры",
+		"department": "Отдел Счастья",
+		"project": "Проект 59",
+		"city": "Ростов-на-Дону",
+		"timezone": "+07:00",
+		"skills": [
+			"JavaScript"
+		],
+		"workHours": "15:00-17:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Иван Волков",
+		"photoUrl": "",
+		"nickname": "Ixxv094",
+		"role": "Менеджер",
+		"team": "Бэкендеры",
+		"department": "Отдел Координации",
+		"project": "Проект 76",
+		"city": "Самара",
+		"timezone": "+08:00",
+		"skills": [
+			"комбинаторика",
+			"алгоритмизация",
+			"JavaScript",
+			"теория графов",
+			"криптография"
+		],
+		"workHours": "13:00-10:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Матвей Волков",
+		"photoUrl": "",
+		"nickname": "Mxxv287",
+		"role": "Дизайнер",
+		"team": "Нытики",
+		"department": "Отдел Счастья",
+		"project": "Проект 42",
+		"city": "Москва",
+		"timezone": "+08:00",
+		"skills": [
+			"теория графов",
+			"Java",
+			"базы данных",
+			"криптография"
+		],
+		"workHours": "15:00-12:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Артем Волков",
+		"photoUrl": "",
+		"nickname": "Axxv958",
+		"role": "Тестировщик",
+		"team": "Веб-мастера",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 99",
+		"city": "Омск",
+		"timezone": "+10:00",
+		"skills": [
+			"JavaScript"
+		],
+		"workHours": "13:00-09:00",
+		"availability": {
+			"vacationEndDate": "2024-07-24"
+		}
+	},
+	{
+		"name": "Николай Кузнецов",
+		"photoUrl": "",
+		"nickname": "Nxxv203",
+		"role": "Тестировщик",
+		"team": "Веб-мастера",
+		"department": "Отдел Координации",
+		"project": "Проект 28",
+		"city": "Москва",
+		"timezone": "+08:00",
+		"skills": [
+			"комбинаторика",
+			"криптография",
+			"базы данных",
+			"Ruby"
+		],
+		"workHours": "13:00-12:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Светлана Волкова",
+		"photoUrl": "",
+		"nickname": "Sxxa852",
+		"role": "Разработчик",
+		"team": "Нытики",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 73",
+		"city": "Казань",
+		"timezone": "+12:00",
+		"skills": [
+			"алгоритмизация",
+			"комбинаторика",
+			"криптография",
+			"C++",
+			"программирование",
+			"теория графов"
+		],
+		"workHours": "17:00-16:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Светлана Михайлова",
+		"photoUrl": "",
+		"nickname": "Sxxa069",
+		"role": "Дизайнер",
+		"team": "Координаторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 30",
+		"city": "Санкт-Петербург",
+		"timezone": "+11:00",
+		"skills": [
+			"алгоритмизация",
+			"структурные данные",
+			"базы данных",
+			"языки программирования",
+			"программирование",
+			"комбинаторика"
+		],
+		"workHours": "09:00-14:00",
+		"availability": {
+			"vacationEndDate": "2024-02-22"
+		}
+	},
+	{
+		"name": "Александр Иванов",
+		"photoUrl": "",
+		"nickname": "Axxv991",
+		"role": "Менеджер",
+		"team": "Нытики",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 71",
+		"city": "Ростов-на-Дону",
+		"timezone": "+06:00",
+		"skills": [
+			"C++"
+		],
+		"workHours": "18:00-11:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Артем Кузнецов",
+		"photoUrl": "",
+		"nickname": "Axxv099",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 58",
+		"city": "Москва",
+		"timezone": "+06:00",
+		"skills": [
+			"алгоритмизация",
+			"теория графов",
+			"комбинаторика",
+			"C++"
+		],
+		"workHours": "12:00-10:00",
+		"availability": {
+			"vacationEndDate": "2024-08-06"
+		}
+	},
+	{
+		"name": "София Волкова",
+		"photoUrl": "",
+		"nickname": "Sxxa867",
+		"role": "Дизайнер",
+		"team": "Координаторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 77",
+		"city": "Екатеринбург",
+		"timezone": "+10:00",
+		"skills": [
+			"теория графов"
+		],
+		"workHours": "14:00-13:00",
+		"availability": {
+			"vacationEndDate": "2024-08-03"
+		}
+	},
+	{
+		"name": "София Иванова",
+		"photoUrl": "",
+		"nickname": "Sxxa013",
+		"role": "Дизайнер",
+		"team": "Бэкендеры",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 40",
+		"city": "Омск",
+		"timezone": "+08:00",
+		"skills": [
+			"программирование",
+			"Java"
+		],
+		"workHours": "16:00-09:00",
+		"availability": {
+			"vacationEndDate": "2024-03-15"
+		}
+	},
+	{
+		"name": "София Кузнецова",
+		"photoUrl": "",
+		"nickname": "Sxxa244",
+		"role": "Аналитик",
+		"team": "Веб-мастера",
+		"department": "Отдел Счастья",
+		"project": "Проект 78",
+		"city": "Казань",
+		"timezone": "+07:00",
+		"skills": [
+			"алгоритмы",
+			"JavaScript",
+			"алгоритмизация",
+			"структурные данные"
+		],
+		"workHours": "18:00-15:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Наталия Андреева",
+		"photoUrl": "",
+		"nickname": "Nxxa149",
+		"role": "Дизайнер",
+		"team": "Бэкендеры",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 19",
+		"city": "Челябинск",
+		"timezone": "+06:00",
+		"skills": [
+			"JavaScript",
+			"структурные данные"
+		],
+		"workHours": "12:00-13:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Мария Михайлова",
+		"photoUrl": "",
+		"nickname": "Mxxa817",
+		"role": "Тестировщик",
+		"team": "Бэкендеры",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 45",
+		"city": "Самара",
+		"timezone": "+11:00",
+		"skills": [
+			"структурные данные"
+		],
+		"workHours": "16:00-11:00",
+		"availability": {
+			"vacationEndDate": "2024-05-11"
+		}
+	},
+	{
+		"name": "Иван Кузнецов",
+		"photoUrl": "",
+		"nickname": "Ixxv830",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 74",
+		"city": "Новосибирск",
+		"timezone": "+07:00",
+		"skills": [
+			"Ruby",
+			"комбинаторика",
+			"криптография",
+			"алгоритмы",
+			"C++"
+		],
+		"workHours": "16:00-09:00",
+		"availability": {
+			"vacationEndDate": "2024-07-07"
+		}
+	},
+	{
+		"name": "Сергей Соколов",
+		"photoUrl": "",
+		"nickname": "Sxxv836",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Координации",
+		"project": "Проект 82",
+		"city": "Москва",
+		"timezone": "+12:00",
+		"skills": [
+			"алгоритмы"
+		],
+		"workHours": "11:00-13:00",
+		"availability": {
+			"vacationEndDate": "2024-02-15"
+		}
+	},
+	{
+		"name": "Николай Соколов",
+		"photoUrl": "",
+		"nickname": "Nxxv209",
+		"role": "Аналитик",
+		"team": "Веб-мастера",
+		"department": "Отдел Координации",
+		"project": "Проект 25",
+		"city": "Челябинск",
+		"timezone": "+07:00",
+		"skills": [
+			"криптография",
+			"JavaScript",
+			"C++",
+			"теория графов"
+		],
+		"workHours": "17:00-14:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Ева Николаева",
+		"photoUrl": "",
+		"nickname": "Exxa210",
+		"role": "Тестировщик",
+		"team": "Инноваторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 99",
+		"city": "Казань",
+		"timezone": "+06:00",
+		"skills": [
+			"Ruby",
+			"теория графов",
+			"комбинаторика",
+			"программирование",
+			"алгоритмы"
+		],
+		"workHours": "13:00-11:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Михаил Сидоров",
+		"photoUrl": "",
+		"nickname": "Mxxv091",
+		"role": "Дизайнер",
+		"team": "Координаторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 12",
+		"city": "Самара",
+		"timezone": "+08:00",
+		"skills": [
+			"алгебраические структуры данных",
+			"криптография",
+			"C++"
+		],
+		"workHours": "16:00-14:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "09:00"
+		}
+	},
+	{
+		"name": "Николай Кузнецов",
+		"photoUrl": "",
+		"nickname": "Nxxv193",
+		"role": "Тестировщик",
+		"team": "Бэкендеры",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 89",
+		"city": "Челябинск",
+		"timezone": "+09:00",
+		"skills": [
+			"программирование",
+			"комбинаторика",
+			"JavaScript"
+		],
+		"workHours": "14:00-09:00",
+		"availability": {
+			"vacationEndDate": "2024-12-04"
+		}
+	},
+	{
+		"name": "Егор Волков",
+		"photoUrl": "",
+		"nickname": "Exxv050",
+		"role": "Дизайнер",
+		"team": "Бэкендеры",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 9",
+		"city": "Москва",
+		"timezone": "+09:00",
+		"skills": [
+			"Java",
+			"алгебраические структуры данных"
+		],
+		"workHours": "13:00-09:00",
+		"availability": {
+			"vacationEndDate": "2024-09-02"
+		}
+	},
+	{
+		"name": "Матвей Кузнецов",
+		"photoUrl": "",
+		"nickname": "Mxxv666",
+		"role": "Дизайнер",
+		"team": "Инноваторы",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 89",
+		"city": "Санкт-Петербург",
+		"timezone": "+10:00",
+		"skills": [
+			"криптография",
+			"структурные данные"
+		],
+		"workHours": "15:00-17:00",
+		"availability": {
+			"vacationEndDate": "2024-07-08"
+		}
+	},
+	{
+		"name": "Павел Петров",
+		"photoUrl": "",
+		"nickname": "Pxxv821",
+		"role": "Дизайнер",
+		"team": "Нытики",
+		"department": "Отдел Веб-технологий",
+		"project": "Проект 11",
+		"city": "Казань",
+		"timezone": "+10:00",
+		"skills": [
+			"комбинаторика",
+			"JavaScript",
+			"алгоритмы",
+			"Java",
+			"базы данных"
+		],
+		"workHours": "15:00-18:00",
+		"availability": {
+			"vacationEndDate": "2024-09-01"
+		}
+	},
+	{
+		"name": "Матвей Николаев",
+		"photoUrl": "",
+		"nickname": "Mxxv120",
+		"role": "Тестировщик",
+		"team": "Веб-мастера",
+		"department": "Отдел Координации",
+		"project": "Проект 71",
+		"city": "Новосибирск",
+		"timezone": "+11:00",
+		"skills": [
+			"языки программирования",
+			"Ruby",
+			"структурные данные"
+		],
+		"workHours": "11:00-11:00",
+		"availability": {
+			"vacationEndDate": "2024-02-11"
+		}
+	},
+	{
+		"name": "Анна Сидорова",
+		"photoUrl": "",
+		"nickname": "Axxa973",
+		"role": "Тестировщик",
+		"team": "Координаторы",
+		"department": "Отдел Координации",
+		"project": "Проект 63",
+		"city": "Ростов-на-Дону",
+		"timezone": "+11:00",
+		"skills": [
+			"Ruby"
+		],
+		"workHours": "13:00-12:00",
+		"availability": {
+			"vacationEndDate": "2024-05-04"
+		}
+	},
+	{
+		"name": "Михаил Михайлов",
+		"photoUrl": "",
+		"nickname": "Mxxv886",
+		"role": "Тестировщик",
+		"team": "Координаторы",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 15",
+		"city": "Екатеринбург",
+		"timezone": "+06:00",
+		"skills": [
+			"структурные данные",
+			"языки программирования",
+			"алгоритмы"
+		],
+		"workHours": "15:00-17:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Николай Кравцов",
+		"photoUrl": "",
+		"nickname": "Nxxv545",
+		"role": "Аналитик",
+		"team": "Координаторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 45",
+		"city": "Москва",
+		"timezone": "+09:00",
+		"skills": [
+			"комбинаторика"
+		],
+		"workHours": "10:00-18:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Матвей Иванов",
+		"photoUrl": "",
+		"nickname": "Mxxv622",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Инноваций",
+		"project": "Проект 56",
+		"city": "Санкт-Петербург",
+		"timezone": "+11:00",
+		"skills": [
+			"комбинаторика",
+			"теория графов",
+			"программирование",
+			"Ruby",
+			"языки программирования",
+			"структурные данные"
+		],
+		"workHours": "13:00-15:00",
+		"availability": {
+			"vacationEndDate": "2024-12-02"
+		}
+	},
+	{
+		"name": "Николай Кузнецов",
+		"photoUrl": "",
+		"nickname": "Nxxv731",
+		"role": "Разработчик",
+		"team": "Бэкендеры",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 52",
+		"city": "Самара",
+		"timezone": "+07:00",
+		"skills": [
+			"базы данных",
+			"теория графов",
+			"комбинаторика",
+			"Ruby",
+			"структурные данные"
+		],
+		"workHours": "12:00-17:00",
+		"availability": {
+			"vacationEndDate": "2024-05-11"
+		}
+	},
+	{
+		"name": "Ольга Сидорова",
+		"photoUrl": "",
+		"nickname": "Oxxa750",
+		"role": "Разработчик",
+		"team": "Координаторы",
+		"department": "Отдел Инноваций",
+		"project": "Проект 73",
+		"city": "Самара",
+		"timezone": "+08:00",
+		"skills": [
+			"базы данных",
+			"программирование"
+		],
+		"workHours": "09:00-11:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Ева Соколова",
+		"photoUrl": "",
+		"nickname": "Exxa680",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Счастья",
+		"project": "Проект 90",
+		"city": "Москва",
+		"timezone": "+06:00",
+		"skills": [
+			"структурные данные",
+			"Python",
+			"алгоритмы"
+		],
+		"workHours": "17:00-12:00",
+		"availability": {
+			"vacationEndDate": "2024-08-16"
+		}
+	},
+	{
+		"name": "Сергей Николаев",
+		"photoUrl": "",
+		"nickname": "Sxxv658",
+		"role": "Тестировщик",
+		"team": "Нытики",
+		"department": "Отдел Координации",
+		"project": "Проект 56",
+		"city": "Москва",
+		"timezone": "+06:00",
+		"skills": [
+			"алгебраические структуры данных",
+			"теория графов",
+			"алгоритмы",
+			"базы данных",
+			"Ruby",
+			"языки программирования"
+		],
+		"workHours": "13:00-11:00",
+		"availability": {
+			"vacationEndDate": "2024-11-28"
+		}
+	},
+	{
+		"name": "Артем Андреев",
+		"photoUrl": "",
+		"nickname": "Axxv398",
+		"role": "Дизайнер",
+		"team": "Нытики",
+		"department": "Отдел Координации",
+		"project": "Проект 70",
+		"city": "Ростов-на-Дону",
+		"timezone": "+08:00",
+		"skills": [
+			"комбинаторика",
+			"структурные данные",
+			"алгоритмизация"
+		],
+		"workHours": "18:00-16:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "09:00"
+		}
+	},
+	{
+		"name": "Анна Сидорова",
+		"photoUrl": "",
+		"nickname": "Axxa602",
+		"role": "Разработчик",
+		"team": "Веб-мастера",
+		"department": "Отдел Координации",
+		"project": "Проект 45",
+		"city": "Новосибирск",
+		"timezone": "+07:00",
+		"skills": [
+			"комбинаторика",
+			"алгоритмизация"
+		],
+		"workHours": "10:00-14:00",
+		"availability": {
+			"vacationEndDate": "2024-08-12"
+		}
+	},
+	{
+		"name": "Матвей Сидоров",
+		"photoUrl": "",
+		"nickname": "Mxxv590",
+		"role": "Менеджер",
+		"team": "Координаторы",
+		"department": "Отдел Инноваций",
+		"project": "Проект 76",
+		"city": "Челябинск",
+		"timezone": "+06:00",
+		"skills": [
+			"теория графов"
+		],
+		"workHours": "12:00-13:00",
+		"availability": {
+			"vacationEndDate": "2024-07-27"
+		}
+	},
+	{
+		"name": "София Михайлова",
+		"photoUrl": "",
+		"nickname": "Sxxa175",
+		"role": "Дизайнер",
+		"team": "Нытики",
+		"department": "Отдел Инноваций",
+		"project": "Проект 52",
+		"city": "Ростов-на-Дону",
+		"timezone": "+08:00",
+		"skills": [
+			"Java",
+			"программирование"
+		],
+		"workHours": "18:00-11:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "12:00"
+		}
+	},
+	{
+		"name": "Павел Петров",
+		"photoUrl": "",
+		"nickname": "Pxxv090",
+		"role": "Разработчик",
+		"team": "Бэкендеры",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 23",
+		"city": "Казань",
+		"timezone": "+12:00",
+		"skills": [
+			"Java"
+		],
+		"workHours": "16:00-12:00",
+		"availability": {
+			"vacationEndDate": "2024-11-28"
+		}
+	},
+	{
+		"name": "Анна Кузнецова",
+		"photoUrl": "",
+		"nickname": "Axxa590",
+		"role": "Дизайнер",
+		"team": "Нытики",
+		"department": "Отдел Счастья",
+		"project": "Проект 84",
+		"city": "Санкт-Петербург",
+		"timezone": "+07:00",
+		"skills": [
+			"языки программирования",
+			"криптография",
+			"Ruby",
+			"структурные данные",
+			"теория графов"
+		],
+		"workHours": "12:00-15:00",
+		"availability": {
+			"vacationEndDate": "2024-12-07"
+		}
+	},
+	{
+		"name": "Матвей Сидоров",
+		"photoUrl": "",
+		"nickname": "Mxxv787",
+		"role": "Аналитик",
+		"team": "Нытики",
+		"department": "Отдел Координации",
+		"project": "Проект 80",
+		"city": "Екатеринбург",
+		"timezone": "+07:00",
+		"skills": [
+			"C++",
+			"JavaScript",
+			"алгебраические структуры данных",
+			"алгоритмизация",
+			"языки программирования"
+		],
+		"workHours": "14:00-12:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "11:00"
+		}
+	},
+	{
+		"name": "Анна Волкова",
+		"photoUrl": "",
+		"nickname": "Axxa435",
+		"role": "Тестировщик",
+		"team": "Нытики",
+		"department": "Отдел Счастья",
+		"project": "Проект 72",
+		"city": "Новосибирск",
+		"timezone": "+12:00",
+		"skills": [
+			"Python",
+			"Ruby",
+			"комбинаторика",
+			"теория графов",
+			"Java"
+		],
+		"workHours": "17:00-13:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Елена Николаева",
+		"photoUrl": "",
+		"nickname": "Exxa041",
+		"role": "Аналитик",
+		"team": "Веб-мастера",
+		"department": "Отдел Бэкенда",
+		"project": "Проект 29",
+		"city": "Ростов-на-Дону",
+		"timezone": "+07:00",
+		"skills": [
+			"алгебраические структуры данных"
+		],
+		"workHours": "12:00-15:00",
+		"availability": {
+			"vacationEndDate": "2024-10-06"
+		}
+	},
+	{
+		"name": "Татьяна Сидорова",
+		"photoUrl": "",
+		"nickname": "Txxa936",
+		"role": "Аналитик",
+		"team": "Инноваторы",
+		"department": "Отдел Инноваций",
+		"project": "Проект 93",
+		"city": "Самара",
+		"timezone": "+07:00",
+		"skills": [
+			"алгебраические структуры данных",
+			"базы данных",
+			"языки программирования",
+			"алгоритмы",
+			"Python",
+			"C++"
+		],
+		"workHours": "10:00-09:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "13:00"
+		}
+	},
+	{
+		"name": "Михаил Иванов",
+		"photoUrl": "",
+		"nickname": "Mxxv655",
+		"role": "Дизайнер",
+		"team": "Веб-мастера",
+		"department": "Отдел Координации",
+		"project": "Проект 8",
+		"city": "Самара",
+		"timezone": "+11:00",
+		"skills": [
+			"Python",
+			"алгоритмизация",
+			"программирование",
+			"Java",
+			"языки программирования",
+			"теория графов"
+		],
+		"workHours": "16:00-13:00",
+		"availability": {
+			"nextMeeting": "01:24",
+			"currentMeetingEndTime": "10:00"
+		}
+	},
+	{
+		"name": "Максим Иванов",
+		"photoUrl": "",
+		"nickname": "Mxxv504",
+		"role": "Разработчик",
+		"team": "Веб-мастера",
+		"department": "Отдел Счастья",
+		"project": "Проект 38",
+		"city": "Омск",
+		"timezone": "+12:00",
+		"skills": [
+			"C++",
+			"Ruby",
+			"алгоритмизация",
+			"алгебраические структуры данных",
+			"Java",
+			"комбинаторика"
+		],
+		"workHours": "18:00-10:00",
+		"availability": {
+			"vacationEndDate": "2024-03-10"
+		}
+	}
+]

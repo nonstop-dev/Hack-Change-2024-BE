@@ -1,10 +1,11 @@
+import json
+from pprint import pprint
+
 from apispec import APISpec
 from apispec.ext.marshmallow import MarshmallowPlugin
 from apispec_webframeworks.flask import FlaskPlugin
+from flask import Flask, jsonify
 from marshmallow import Schema, fields
-from flask import Flask, abort, request, make_response, jsonify
-from pprint import pprint
-import json
 
 
 class NonStopParameter(Schema):
