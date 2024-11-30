@@ -4,6 +4,8 @@ from flask import Flask, request
 from flask_restx import Api, Resource, fields
 from flask_sqlalchemy import SQLAlchemy
 
+from data_generator import generate_employees
+
 SWAGGER_URL = '/swagger'
 API_URL = '/swagger.json'
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -137,6 +139,17 @@ class EmployeeResource(Resource):
         db.session.commit()
         return '', 204
 
+@api.route('/internal/employees/generate', doc=False)
+class InternalResource(Resource):
+    def get(self):
+        count = request.args.get('count', 100, int)
+        employees = generate_employees(count)
+        for employee in employees:
+            new_employee = Employee(**employee)
+            db.session.add(new_employee)
+
+        db.session.commit()
+        return '', 204
 
 if __name__ == '__main__':
     with app.app_context():

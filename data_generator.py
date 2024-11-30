@@ -1,9 +1,8 @@
+import json
 import random
 from datetime import datetime
 
 from nickname_generator import generate
-
-from models import Employee_
 
 # Списки возможных значений для каждого поля
 women_names = ['София', 'Анна', 'Мария', 'Ева', 'Виктория', 'Светлана', 'Ольга', 'Татьяна', 'Наталия', 'Елена']
@@ -31,23 +30,36 @@ def generate_employee():
     last_name = random.choice(women_last_names) if is_women else random.choice(men_last_names)
     name = f"{first_name} {last_name}"
     nickname = generate() #generate_username(translit(name, "ru", reversed=True))
+    email = f"{nickname}@mtc.ru"
     role = random.choice(roles)
     team = random.choice(teams)
     department = random.choice(departments)
     project = f"Проект {random.randint(1, 100)}"
     city = random.choice(cities)
     timezone = f"+{random.randint(6, 12):02d}:00"
-    skills = random.sample(skillsSet, random.randint(1, 6))
+    skills = ','.join(random.sample(skillsSet, random.randint(1, 6)))
     workHours = f"{random.randint(9, 18):02d}:00-{random.randint(9, 18):02d}:00"
-    availability = {
+    availability = json.dumps({
         "nextMeeting": f"{datetime.now().hour:02d}:{datetime.now().minute:02d}",
         "currentMeetingEndTime": f"{random.randint(9, 13):02d}:00"
     } if bool(random.getrandbits(1)) else {
         "vacationEndDate": f"{datetime.now().year}-{random.randint(1, 12):02d}-{random.randint(1, 28):02d}"
-    }
+    })
 
-    employee = Employee_(name, "", nickname, role, team, department, project, city, timezone, skills, workHours, availability)
-    return employee
+    return {
+        'name': name,
+        'nickname': nickname,
+        'email': email,
+        'role': role,
+        'team': team,
+        'department': department,
+        'project': project,
+        'city': city,
+        'timezone': timezone,
+        'skills': skills,
+        'workHours': workHours,
+        'availability': availability
+    }
 
 def generate_employees(count):
     employees = [generate_employee() for _ in range(count)]
