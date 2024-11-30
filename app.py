@@ -61,6 +61,11 @@ class Employee(db.Model):
             'availability': self.availability
         }
 
+    @staticmethod
+    def searchable_fields():
+        return ['name', 'email', 'nickname', 'role', 'team', 'department', 'project', 'city', 'skills', 'timezone']
+
+
 
 employee_model = api.model('Employee', {
     'id': fields.Integer(readonly=True),
@@ -138,6 +143,36 @@ class EmployeeResource(Resource):
         db.session.delete(employee)
         db.session.commit()
         return '', 204
+
+
+@api.route('/employees/search')
+class EmployeeSearch(Resource):
+    @api.param('q', 'Search query by name or nickname')
+    @api.param('name', 'Full name')
+    @api.param('email', 'Email')
+    @api.param('nickname', 'Nickname')
+    @api.param('role', 'Role')
+    @api.param('team', 'Team')
+    @api.param('department', 'Department')
+    @api.param('project', 'Project')
+    @api.param('city', 'City')
+    @api.param('skills', 'Skills')
+    @api.param('timezone', 'Timezone')
+    @api.marshal_with(employee_model)
+    def get(self):
+        q = request.args.get('q', '').lower()
+        employees =  [e.to_json() for e in Employee.query.all() if not q or q in e.name.lower() or q in e.nickname.lower()]
+        for field in Employee.searchable_fields():
+            field_filter = request.args.get(field)
+            if field_filter:
+                field_filter = field_filter.lower()
+                if field == 'skills':
+                    employees = [e for e in employees if field_filter in map(str.lower, e['skills'])]
+                else:
+                    employees = [e for e in employees if field_filter in e[field].lower()]
+
+        return employees
+
 
 @api.route('/internal/employees/generate', doc=False)
 class InternalResource(Resource):
