@@ -6,8 +6,11 @@ from flask_sqlalchemy import SQLAlchemy
 
 SWAGGER_URL = '/swagger'
 API_URL = '/swagger.json'
+basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'nonstop.sqlite')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 api = Api(app,
           default='Employees',
@@ -18,11 +21,7 @@ api = Api(app,
           license='Apache 2.0',
           license_url='https://www.apache.org/licenses/LICENSE-2.0.html')
 
-basedir = os.path.abspath(os.path.dirname(__file__))
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'nonstop.sqlite')
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
-
 class Employee(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
@@ -60,6 +59,7 @@ class Employee(db.Model):
             'availability': self.availability
         }
 
+
 employee_model = api.model('Employee', {
     'id': fields.Integer(readonly=True),
     'name': fields.String(required=True, description='Name'),
@@ -77,18 +77,14 @@ employee_model = api.model('Employee', {
     'availability': fields.String(required=False, description='Availability'),
 })
 
-# employees_ns = Namespace('Employees', description='Employee related operations')
-# api.add_namespace(employees_ns)
-
 
 @api.route('/employees')
-class Employees(Resource):
+class EmployeesResource(Resource):
     @api.doc(responses={200: 'Success'})
     @api.marshal_with(employee_model)
     def get(self):
         employees = Employee.query.all()
         return [e.to_json() for e in employees]
-
 
     @api.doc(responses={201: 'Created'},
              body=employee_model,
@@ -101,6 +97,45 @@ class Employees(Resource):
         db.session.add(new_employee)
         db.session.commit()
         return new_employee.to_json(), 201
+
+
+@api.route('/employees/<int:employee_id>')
+class EmployeeResource(Resource):
+    @api.doc(responses={200: 'Success'})
+    @api.marshal_with(employee_model)
+    def get(self, employee_id):
+        employee = Employee.query.get_or_404(employee_id)
+        return employee.to_json()
+
+    @api.doc(responses={204: 'Updated'},
+             body=employee_model,
+             validate=True)
+    def put(self, employee_id):
+        employee = Employee.query.get_or_404(employee_id)
+        employee.name = request.json.get('name') or employee.name
+        employee.email = request.json.get('email') or employee.email
+        employee.nickname = request.json.get('nickname') or employee.nickname
+        employee.photoUrl = request.json.get('photoUrl') or employee.photoUrl
+        employee.role = request.json.get('role') or employee.role
+        employee.team = request.json.get('team') or employee.team
+        employee.department = request.json.get('department') or employee.department
+        employee.project = request.json.get('project') or employee.project
+        employee.city = request.json.get('city') or employee.city
+        employee.timezone = request.json.get('timezone') or employee.timezone
+        skills = request.json.get('skills')
+        skills = ','.join(skills) if skills else employee.skills
+        employee.skills = skills
+        employee.workHours = request.json.get('workHours') or employee.workHours
+        employee.availability = request.json.get('availability') or employee.availability
+        db.session.commit()
+        return '', 204
+
+    @api.response(204, 'Deleted')
+    def delete(self, employee_id):
+        employee = Employee.query.get_or_404(employee_id)
+        db.session.delete(employee)
+        db.session.commit()
+        return '', 204
 
 
 if __name__ == '__main__':
