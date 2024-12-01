@@ -165,8 +165,8 @@ class EmployeeSearch(Resource):
     @api.param('city', 'City')
     @api.param('skills', 'Skills')
     @api.param('timezone', 'Timezone')
-    @api.marshal_with(employee_model)
     @cross_origin()
+    @api.marshal_with(employee_model)
     def get(self):
         q = request.args.get('q', '').lower()
         employees =  [e.to_json() for e in Employee.query.all() if not q or q in e.name.lower() or q in e.nickname.lower()]
