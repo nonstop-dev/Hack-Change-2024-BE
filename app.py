@@ -3,7 +3,7 @@ import os
 from flask import Flask, request
 from flask_restx import Api, Resource, fields
 from flask_sqlalchemy import SQLAlchemy
-
+from flask_cors import CORS, cross_origin
 from data_generator import generate_employees
 
 SWAGGER_URL = '/swagger'
@@ -12,9 +12,10 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'nonstop.sqlite')
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['RESTX_MASK_SWAGGER'] = False
-
 api = Api(app,
           default='Employees',
           default_label='Employee related operations',
@@ -89,6 +90,7 @@ employee_model = api.model('Employee', {
 @api.route('/employees')
 class EmployeesResource(Resource):
     @api.doc(responses={200: 'Success'})
+    @cross_origin()
     @api.marshal_with(employee_model)
     def get(self):
         employees = Employee.query.all()
@@ -97,6 +99,7 @@ class EmployeesResource(Resource):
     @api.doc(responses={201: 'Created'},
              body=employee_model,
              validate=True)
+    @cross_origin()
     @api.marshal_with(employee_model)
     def post(self):
         data = request.json
@@ -110,11 +113,13 @@ class EmployeesResource(Resource):
 @api.route('/employees/<int:employee_id>')
 class EmployeeResource(Resource):
     @api.doc(responses={200: 'Success'})
+    @cross_origin()
     @api.marshal_with(employee_model)
     def get(self, employee_id):
         employee = Employee.query.get_or_404(employee_id)
         return employee.to_json()
 
+    @cross_origin()
     @api.doc(responses={204: 'Updated'},
              body=employee_model,
              validate=True)
@@ -139,6 +144,7 @@ class EmployeeResource(Resource):
         return '', 204
 
     @api.response(204, 'Deleted')
+    @cross_origin()
     def delete(self, employee_id):
         employee = Employee.query.get_or_404(employee_id)
         db.session.delete(employee)
@@ -160,6 +166,7 @@ class EmployeeSearch(Resource):
     @api.param('skills', 'Skills')
     @api.param('timezone', 'Timezone')
     @api.marshal_with(employee_model)
+    @cross_origin()
     def get(self):
         q = request.args.get('q', '').lower()
         employees =  [e.to_json() for e in Employee.query.all() if not q or q in e.name.lower() or q in e.nickname.lower()]
@@ -177,6 +184,7 @@ class EmployeeSearch(Resource):
 
 @api.route('/internal/employees/generate', doc=False)
 class InternalResource(Resource):
+    @cross_origin()
     def get(self):
         count = request.args.get('count', 100, int)
         employees = generate_employees(count)
